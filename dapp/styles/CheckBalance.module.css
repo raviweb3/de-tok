@@ -1,0 +1,23 @@
+.container {
+  background-color: #ffffffad;
+  margin: 1;
+  min-height: 5vh;
+  min-width: 95vh;
+  padding: .5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.title{
+    margin: 3;
+    line-height: 0.75;
+    font-size: 1rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
